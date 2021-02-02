@@ -18,21 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: RagingAmbassador's Home on GitHub
+title: RagingAmbassador on Github
+author: Nick
 email: RagingAmbassador13+github@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My "experimental" web pages where I will be playing around with various aspects of Jekyll and Github pages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ragingambassador.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  RagingAmbassador
 
 # Build settings
-theme: minima
+# My Note: Commented out theme entry because I copied the theme stuff local to the page:
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
